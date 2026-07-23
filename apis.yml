@@ -1,8 +1,27 @@
 aid: ai-medical-service
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ai-medical-service.png
 name: AI Medical Service
-description: 'AI Medical Service is a company surfaced as a portfolio company of softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'AI Medical Service Inc. (AIM) is a Tokyo-based med-tech company founded in September
+  2017 with the mission to save lives worldwide by eliminating gastrointestinal cancers through
+  earlier detection. AIM develops endoscopic AI (artificial intelligence) that assists physicians
+  in real-time diagnostic imaging of the digestive tract, drawing on joint research with more than
+  100 medical institutions. Its flagship gastroAI family of endoscopic image diagnosis support
+  software has secured regulatory approval in Japan, Singapore, and Thailand, and an earlier FDA
+  approval in the United States. The company distributes its AI on-premise today and is building an
+  in-house cloud platform to broaden access; it currently publishes no public developer API,
+  OpenAPI specification, or developer portal. This API Evangelist profile tracks the company as a
+  health-tech lead backed by SoftBank Vision Fund.'
 url: https://raw.githubusercontent.com/api-evangelist/ai-medical-service/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +35,36 @@ modified: '2026-07-17'
 tags:
 - Company
 - Health Tech
+- Artificial Intelligence
+- Medical Imaging
+- Endoscopy
+- Diagnostics
+- Gastroenterology
+- Oncology
+- Japan
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ai-medical-service-domain-security.yml
+- type: Website
+  url: https://en.ai-ms.com/
+- type: About
+  url: https://en.ai-ms.com/about
+- type: Company
+  url: https://en.ai-ms.com/company
+- type: News
+  url: https://en.ai-ms.com/news
+- type: PrivacyPolicy
+  url: https://en.ai-ms.com/privacy
+- type: InformationSecurityPolicy
+  url: https://en.ai-ms.com/security
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
