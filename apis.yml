@@ -42,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Health Tech
@@ -55,6 +55,8 @@ tags:
 - Japan
 apis: []
 common:
+- url: https://en.ai-ms.com/en/news
+  type: Blog
 - type: DomainSecurity
   url: security/ai-medical-service-domain-security.yml
 - type: Website
